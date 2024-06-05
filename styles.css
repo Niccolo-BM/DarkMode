@@ -1,0 +1,38 @@
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#toggleButton {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(135deg, rgb(0, 0, 0) 0%,  rgb(0, 0, 0) 35%, rgb(255, 255, 255) 100%); 
+    border-radius: 100%;  
+}
+
+.button-style {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(135deg, rgb(0, 0, 0) 0%,  rgb(0, 0, 0) 35%, rgb(255, 255, 255) 100%); 
+    border-radius: 100%;  
+    border-color: solid 10px white;
+}
+
+
